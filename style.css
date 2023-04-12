@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+}
+.main-div{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #eff4fd;
+}
+
+nav{
+    display:flex;
+    width: 84%;
+    margin:auto;
+    padding:20px 0;
+    align-items: center;
+    justify-content: space-between;
+    position:sticky;
+}
+
+
+/* .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+} */
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color:orange;
+}
+.details{
+    margin-left:10%;
+    margin-top:15%;
+}
+.details h1{
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 20px;
+}
+span{
+    color: orange;
+}
+
+.details p{
+    color:rgb(118, 107, 107);
+    line-height: 20px;
+
+}
+.details a{
+    background:#212121;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+.resume-div{
+    width: 45%;
+    height: 70%;
+    position: absolute;
+    bottom: 0;
+    right:100px;
+
+}
+.resume-div p{
+    width: 90%;
+
+}
+.resumepdf{
+    height: 70%;
+    width: 70%;
+}
+.about{
+    width:100;
+    height:100vh;
+    text-align: center;
+    background: #eff4fd;
+    justify-content: center;
+    align-items: center;
+}
+.about h1{
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+.about p{
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color:#212121;
+}
+.portfolio-main{
+    width:100;
+    height:100vh;
+    text-align: center;
+    background: #eff4fd;
+    justify-content: center;
+    align-items: center;
+    font-size:50px;
+    font-weight: bold;
+}
+
+
+.summercountdown{
+    width: 50%;
+    height: 50%;
+    right:100px;
+    font-size:20px;
+    border:orange solid;
+    background-image:url(https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1473&q=80);
+    background-size: cover;
+}
+.days-countdown{
+    justify-content: center;
+    align-items: center;
+}
+
+.countdown-container{
+    display:flex;
+    margin: 20px;
+    align-items: center;
+    font-size: 30px;
+    justify-content: center;
+   
+}
+.secondrow{
+    width: 50%;
+    height: 50%;
+}
+.stopwatch-box{
+    
+    justify-content: right;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+    border: 3px solid orange;
+    padding: 50px;
+    margin: 20px;
+    position: center;
+    background-color: orange;
+    color: #fff;
+}
+.stopwatch-box p span {
+    color:#fff;
+    font-size: 60px;
+}
+
+#stopWatchStart{
+    background:#212121;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+#stopWatchStop{
+    background:#212121;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+#stopWatchReset{
+    background:#212121;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+#userinput{
+    justify-content: center;
+    padding: 0.5rem;
+}
+
+#todolist{
+    font-weight: bold;
+    text-align: left;
+    font-size: 20px;
+    list-style: none;
+    width: 50%;
+    height: 50%;
+}
+
+.container-top {
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+    width: 60px;
+  }
+  
+.top {
+    position: sticky;
+    bottom: 20px;      
+    margin-right:10px; 
+    
+    /* visual styling */
+    width:100%;
+    aspect-ratio:1;
+    background:#ff8b24;
+    border-radius:10px;
+  }
+.top:before {
+    content:"";
+    position:absolute;
+    inset:30%;
+    transform:translateY(20%) rotate(-45deg);
+    border-top:5px solid #fff;
+    border-right:5px solid #fff;
+  }
+  .contact-main{
+    width:100;
+    height:100vh;
+    text-align: center;
+    background: #eff4fd;
+    justify-content: center;
+    align-items: center;
+}
+.contact-main h1{
+    justify-content: center;
+    align-items: center;
+    font-size:50px;
+    font-weight: bold;
+}
+.contactLinks{
+    justify-content: end;
+    align-items: center;
+
+}
+.contact-details{
+    font-size: 30px;
+    font-weight: bold;
+}
+.LinkedIn img{
+    width:60px;
+    height:60px;
+}
+.LinkedIn a{
+    font-size:20px;
+    text-decoration: none;
+
+}
+.GitHub img{
+    width: 60px;
+    height: 60px;
+}
+.GitHub a{
+    font-size: 20px;
+    text-decoration: none;
+}
