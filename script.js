@@ -9,7 +9,7 @@ const hoursElement = document.getElementById('hours');
 const minutesElement = document.getElementById('minutes');
 const secondsElement = document.getElementById('seconds')
 
-let summer = "21 Jun 2023";
+let summer = "21 Jun 2025";
 
 function countdown(){
     const summerStart = new Date(summer);
@@ -116,21 +116,3 @@ input.addEventListener('keydown', function(e){
          }
     }
 });
-
-//JavaScript weather app//
-
-
-
-
-//Sticky nav 
-
-// const navbar = document.querySelector('#navbar');
-// let top = navbar.offsetTop;
-// function stickynavbar() {
-//   if (window.scrollY >= top) {    
-//     navbar.classList.add('sticky');
-//   } else {
-//     navbar.classList.remove('sticky');    
-//   }
-// }
-// window.addEventListener('scroll', stickynavbar);
